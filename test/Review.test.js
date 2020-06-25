@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Review from '../src/components/Review';
 
-it('Question component is rendering', () => {
+it('Review component is rendering', () => {
   const div = document.createElement('div');
   ReactDOM.render(<Review />, div);
   ReactDOM.unmountComponentAtNode(div);
